@@ -1,5 +1,6 @@
-from characters import *
-from items import *
+from characters import PlayerCharacter, Character
+from Inventory.weapons import Weapon
+from Gameplay.characters import *
 
 
 def test_attacking():
@@ -38,8 +39,6 @@ def test_item_stash():
     item_stash = ItemStash(1)
     item_stash[1] = 2
     print item_stash[1]
-
-
 
 
 if __name__ == '__main__':
