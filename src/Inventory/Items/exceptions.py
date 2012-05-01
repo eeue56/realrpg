@@ -1,0 +1,2 @@
+class ItemStashFull(Exception):
+	pass
