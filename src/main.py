@@ -1,4 +1,4 @@
-from characters import PlayerCharacter, Character
+from Characters import Character, PlayerCharacter
 from Inventory.weapons import Weapon
 from Gameplay.characters import *
 

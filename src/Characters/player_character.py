@@ -1,7 +1,6 @@
-from characters import Character
+from character import Character
 
-print dir()
 
-#class PlayerCharacter(Character):
-#   def __init__(self, *args, **kwargs):
-#        Character.__init__(self, *args, **kwargs)
+class PlayerCharacter(Character):
+   def __init__(self, *args, **kwargs):
+        Character.__init__(self, *args, **kwargs)

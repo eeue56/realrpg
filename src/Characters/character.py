@@ -1,5 +1,7 @@
-from Inventory.items import ItemStash
+import sys
+sys.path.append("C:/Users/Noah/Documents/Programming/Testing/Python/realrpg/src")
 from Inventory.weapons import Weapon
+from Inventory.Items import ItemStash
 
 
 class Character(object):
@@ -46,4 +48,3 @@ class Character(object):
 
     def attack(self, defender):
         self.strongest_weapon().attack(self, defender)
-        

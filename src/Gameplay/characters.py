@@ -3,8 +3,8 @@ from random import randint
 
 def characters_sorted_by_speed(characters):
     return sorted(characters,
-      			  key=lambda character: randint(0, character.speed) * character.speed, 
-    			  reverse=True)
+                  key=lambda character: randint(0, character.speed) * character.speed,
+                  reverse=True)
 
 
 def fight_between_characters(*characters):

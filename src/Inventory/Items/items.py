@@ -1,4 +1,4 @@
-from src.Items import ItemStashFull
+from item_exceptions import ItemStashFull
 
 class Item(object):
     def __init__(self, name, uses):
